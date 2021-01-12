@@ -1,6 +1,7 @@
 var godina = prompt("vnesete godina","HERE");
-godina== godina-4;
-var zodiacNumber= godina/12 ;
+
+var zodiacNumber= (godina-4)%12 ;
+alert(zodiacNumber);
 if(zodiacNumber == 0)
 {
    alert("Your" + " "+"Zodiac"+" "+"is:"+" "+"Rat");
